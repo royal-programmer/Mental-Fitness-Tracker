@@ -19,35 +19,23 @@ The repository is organized as follows:
 
 ```
 |- data/
-   |- dataset1.csv             # First dataset from Kaggle
-   |- dataset2.csv             # Second dataset from Kaggle
+   |- prevalence-by-mental-and-substance-use-disorder.csv             # First dataset from Kaggle
+   |- mental-and-substance-use-as-share-of-disease.csv                # Second dataset from Kaggle
 |- notebooks/
-   |- data_preprocessing.ipynb # Notebook for data preprocessing
-   |- exploratory_analysis.ipynb # Notebook for exploratory data analysis
-   |- linear_regression_model.ipynb # Notebook for the Linear Regression Model
-   |- random_forest_regression_model.ipynb # Notebook for the Random Forest Regression Model
+   |- Mental Fitness Tracker.ipynb # Notebook for data preprocessing
 |- visualizations/
    |- visualization1.png       # Example visualization 1
    |- visualization2.png       # Example visualization 2
-|- app/
-   |- main.py                  # Main file for the user interface
-   |- templates/               
-      |- index.html            # HTML template for the user interface
 |- README.md                   # Project description and instructions
 ```
 
 ## Getting Started
 To get started with this project, follow these steps:
-1. Clone this repository: `git clone https://github.com/username/repository.git`
+1. Clone this repository: `git clone https://github.com/royal-programmer/Mental-Fitness-Tracker.git`
 2. Install the required dependencies: `pip install -r requirements.txt`
-3. Navigate to the notebooks directory and execute the notebooks in the following order:
-   - `data_preprocessing.ipynb`
-   - `exploratory_analysis.ipynb`
-   - `linear_regression_model.ipynb`
-   - `random_forest_regression_model.ipynb`
+3. Navigate to the notebooks directory and execute the notebooks:
+   - `Mental Fitness Tracker.ipynb`
 4. Explore the results, insights, and visualizations obtained from the notebooks.
-5. Run the main.py file in the app directory to launch the user interface.
-6. Access the user interface through your web browser and input the relevant parameters for mental health prediction.
 
 ## Dependencies
 The project has the following dependencies:
@@ -57,7 +45,6 @@ The project has the following dependencies:
 - scikit-learn
 - matplotlib
 - seaborn
-- Flask
 
 Please refer to the requirements.txt file for the complete list of dependencies and their versions.
 
